@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wapenda-agent-toolkit"
+version = "0.1.0"
+description = "Model Context Protocol (MCP) server and operations toolkit for AI agents and WhatsApp Business integrations"
+readme = "README.md"
+authors = [{ name = "Sergio Grindley", email = "hola@wapenda.es" }]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Communications :: Chat",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "mcp>=0.1.0",
+    "httpx>=0.25.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/sergiogrindley-lgtm/wapenda-agent-toolkit"
+Repository = "https://github.com/sergiogrindley-lgtm/wapenda-agent-toolkit"
+Issues = "https://github.com/sergiogrindley-lgtm/wapenda-agent-toolkit/issues"
