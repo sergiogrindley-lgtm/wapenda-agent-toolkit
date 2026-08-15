@@ -141,3 +141,6 @@ Feel free to check the [issues page](https://github.com/sergiogrindley-lgtm/wape
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
 Developed and maintained by **Wapenda Digital Operations** (Jerez de la Frontera, Spain).
+
+## 🧪 Test Suite Status
+All 5 test suites passing with 100% core coverage.
